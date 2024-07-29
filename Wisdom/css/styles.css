@@ -1,0 +1,149 @@
+/* Reset styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/* Reset styles */
+
+
+/* Body styles */
+body{
+    background-color: #5fb0ff;
+    font-family:poppins,sans-serif ;
+    font-weight: bold;
+}
+/* Body styles */
+
+
+/* Header styles */
+
+header h1{
+    text-align: center;
+    color: #fff;
+    padding: 15px 0 10px 0;
+}
+/* Header styles */
+
+
+/* Navigation bar styles */
+.nav{
+    width: 100%;
+    height: 10vh;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+}
+/* Navigation bar styles */
+
+
+/* First section styles */
+.first{
+    background-color: #fff;
+    width: 100%;
+    height: 15vh;
+    border-top: #4c89c5 5px solid;
+}
+h2{
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    top: 25px;
+}
+/* First section styles */
+
+
+/* Section One,Two & Three & Four & Five common styles */
+.second,.third,.fourth,.fifth,.six{
+    background-color:  #fff;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    height: 50vh;
+}
+h3{
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0 10px 0;
+}
+/* Section Two & Three & Four & Five common styles */
+
+
+/* Second section styles */
+.second{
+    line-height: 45px;
+}
+.information{
+    margin-left: 30px;
+    padding-top: 10px;
+}
+/* Second section styles */
+
+
+/* Third & fourth section styles */
+button{
+    position: relative;
+    left: 42%;
+    top: 80px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #5fb0ff;
+    margin-top: 80px;
+}
+.btn{
+    padding: 0 10px;
+}
+button a{
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+/* Third & fourth section styles */
+
+
+
+/* Fifth section styles */
+.fifth .information{
+    line-height: 3rem;
+    padding-top: 10px;
+}
+/* Fifth section styles */
+
+
+/* Six section styles */
+.footer{
+    background-color: #5fb0ff;
+    height: 15vh;
+}
+.footer p{
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+/* Six section styles */
+
+
+/* Responsive styles */
+@media screen  and (max-width:960px){
+    nav{
+        display: none;
+    }
+}
+/* Responsive styles */
+
